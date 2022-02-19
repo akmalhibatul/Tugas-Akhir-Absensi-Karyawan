@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+body {
+  font-family: sans-serif;
+  background: #62d8a2;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.tulisan_login {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.kotak_login {
+  width: 400px;
+  background: white;
+  margin: 80px auto;
+  padding: 30px 20px;
+  box-shadow: 4px 8px 8px 4px rgba(2, 2, 0, 0.2);
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background: #62d8a2;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.reset_login {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background: red;
+  color: white;
+  font-size: 11pt;
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+@media (max-width: 768px) {
+  .kotak_login {
+    width: 300px;
+  }
+}
